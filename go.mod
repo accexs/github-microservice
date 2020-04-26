@@ -1,0 +1,8 @@
+module github.com/accexs/github-microservice
+
+go 1.14
+
+require (
+	github.com/gin-gonic/gin v1.6.2 // indirect
+	github.com/stretchr/testify v1.5.1
+)
