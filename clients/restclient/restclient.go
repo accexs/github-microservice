@@ -45,7 +45,7 @@ func Post(url string, body interface{}, headers http.Header) (*http.Response, er
 	if enabledMocks {
 		mock := mocks[GetMockId(http.MethodPost, url)]
 		if mock == nil {
-			return nil, errors.New("no mockup found for give request")
+			return nil, errors.New("no mockup found")
 		}
 		return mock.Response, mock.Err
 	}
