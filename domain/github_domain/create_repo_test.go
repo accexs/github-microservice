@@ -9,7 +9,7 @@ import (
 func TestCreateRepoRequestAsJson(t *testing.T) {
 	request := CreateRepoRequest{
 		Name:        "Golang development",
-		Description: "A golang development repo",
+		Description: "A golang development repository",
 		Homepage:    "https://github_domain.com",
 		Private:     true,
 		HasIssues:   true,
